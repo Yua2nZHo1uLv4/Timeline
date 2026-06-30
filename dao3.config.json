@@ -1,0 +1,31 @@
+{
+    "ArenaPro": {
+        "file": {
+            "typescript": {
+                "server": {
+                    "entry": "src/App.ts",
+                    "development": true
+                },
+                "client": {
+                    "entry": "src/clientApp.ts",
+                    "development": true,
+                    "uiIndexPrefix": ""
+                },
+                "developmentAll": null,
+                "jsUpdate": true
+            }
+        },
+        "map": {
+            "id": "100572138",
+            "playHash": "3ff9fde6a2e2dc3da6af"
+        },
+        "outputAndUpdate": [
+            {
+                "name": "bundle.js",
+                "serverEntry": "src/App.ts",
+                "clientEntry": "src/clientApp.ts",
+                "description": "地图项目入口文件"
+            }
+        ]
+    }
+}
